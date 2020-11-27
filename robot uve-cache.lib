@@ -222,9 +222,11 @@ F1 "EESTN5_Mounting_Hole" 0 125 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 $FPLIST
- Mounting?Hole*
- Hole*
+ hole*
  Logo*
+ PAD*
+ Separador*
+ Cable*
 $ENDFPLIST
 DRAW
 C 0 0 50 0 1 50 N
@@ -239,9 +241,8 @@ F1 "EESTN5_R" 50 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- R*
- SM0603
- SM0805
+ RES*
+ R_*
 $ENDFPLIST
 DRAW
 S 20 50 -20 -50 0 1 0 N
